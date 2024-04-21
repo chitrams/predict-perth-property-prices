@@ -75,3 +75,25 @@ scrape_property_info <- function(suburb, page_end){
   
   properties_info_cleaned
 }
+
+make_df_properties <- function(list_properties) {
+  
+  # Convert the list properties to a data frame
+  max_length <- max(lengths(list_properties))
+  
+  # Pad each sublist with NA values to match the maximum length
+  padded_properties <- lapply(list_properties, function(x) {
+    if(length(x) < max_length) {
+      c(x, rep(NA, max_length - length(x)))
+    } else {
+      x
+    }
+  })
+  
+  # Convert the padded properties to a data frame
+  df <- as.data.frame(do.call(rbind, padded_properties))
+  
+  # Return the resulting data frame
+  df
+  
+}

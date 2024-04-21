@@ -39,5 +39,18 @@ list(
     scrape_property_info(
       suburb = suburb, 
       page_end = page_end)
+  ),
+  
+  tar_target(
+    properties_list_form,
+    map2(
+      .x = property_info, 
+      .y = suburb_addresses, 
+      .f = ~ c(.y, .x))
+  ),
+  
+  tar_target(
+    df_properties,
+    make_df_properties(properties_list_form)
   )
 )

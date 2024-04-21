@@ -1,7 +1,11 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-scrape_property_info|function|8b78d49e3319f7ba
-scrape_addresses|function|39e27bbda2738754
+df_properties|stem|13b7085ca03572f0|9a6aebfece309c56|010360e7a947625e|-1460279||t19834.3760235986s|cbc6b485a12abc45|1717|rds|local|vector|||0||
+make_df_properties|function|141b0ee44f91d305|||||||||||||||
 page_end|stem|9ca1c1ed695078a9|e23d44990657c947|ef46db3751d8e999|1536468902||t19834.3500491149s|c9aaea90a821e608|53|rds|local|vector|||3.61||
+properties|stem|5a491b646c0b2ec9|10f66e14d34f1fa3|b46d3cd02364ac11|-277167680||t19834.3633290336s|ccfa23508eb18bd8|1663|rds|local|vector|||0||
+properties_list_form|stem|5a491b646c0b2ec9|10f66e14d34f1fa3|b46d3cd02364ac11|-1709185728||t19834.3754646442s|ccfa23508eb18bd8|1663|rds|local|vector|||0||
+property_info|stem|7b020d8cd895b4a1|93a2dd26e12d0b9a|f4a9c7903219c627|-1464843517||t19834.3502141817s|5da7477cd254b6f9|1464|rds|local|vector|||5.75||
+scrape_addresses|function|39e27bbda2738754|||||||||||||||
+scrape_property_info|function|8b78d49e3319f7ba|||||||||||||||
 suburb|stem|c7caa4255ca1defc|8e396cdcad9b3da5|ef46db3751d8e999|856001176||t19834.35005068s|1d635f53cb385f1d|65|rds|local|vector|||0||
 suburb_addresses|stem|860c6ac652607263|d52360deeeb7ec7c|c55b5173c0f36433|-1022394922||t19834.3501460264s|39a4ea80a937df4e|280|rds|local|vector|||8.12||
-property_info|stem|7b020d8cd895b4a1|93a2dd26e12d0b9a|f4a9c7903219c627|-1464843517||t19834.3502141817s|5da7477cd254b6f9|1464|rds|local|vector|||5.75||
