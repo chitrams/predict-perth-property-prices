@@ -1,3 +1,3 @@
 # Predict Perth Property Prices
 
-Educated guesses on how much property in Perth would cost based on its attributes.
+Educated guesses on the price of residential properties in Perth based on its attributes.
